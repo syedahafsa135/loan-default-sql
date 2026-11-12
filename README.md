@@ -23,6 +23,12 @@
 
 ![Deciles by interest rate and loan-to-income](figures/deciles-rate-vs-lti.png)
 
+## Power BI dashboard
+
+A one-page report built on the `loans_dashboard` SQL view, with slicers for income band and loan purpose. Its numbers match the SQL results: 11.61% overall, 47.4% of defaults in loans with 2+ flags, and 4.94% to 53.17% by flag count. File: [`powerbi/Dashboard.pbix`](powerbi/Dashboard.pbix).
+
+![Power BI dashboard: KPI cards, default rate by age, employment type and red flags, an age band by job tenure heatmap, and income and purpose slicers](powerbi/dashboard.png)
+
 ## Data
 
 - Kaggle **Loan Default Prediction Dataset**: 255,347 loans, 18 columns, 11.61% defaults (29,653).
@@ -89,7 +95,7 @@ python src/export_powerbi.py        # powerbi/loans_dashboard.csv for the dashbo
 
 To explore by hand, open `data/loans.db` in [DB Browser for SQLite](https://sqlitebrowser.org/) and paste any query from `sql/` into the **Execute SQL** tab.
 
-The Power BI page is built from `powerbi/loans_dashboard.csv`. [`powerbi/POWERBI_STEPS.md`](powerbi/POWERBI_STEPS.md) has the build steps and the values each visual should show.
+To open the dashboard, run `export_powerbi.py` first. Then open `powerbi/Dashboard.pbix` in Power BI Desktop and click **Refresh**; if it asks where the data is, point it at `powerbi/loans_dashboard.csv`. [`powerbi/POWERBI_STEPS.md`](powerbi/POWERBI_STEPS.md) has the build steps and the values each visual should show.
 
 ## Limitations and next steps
 

@@ -94,6 +94,6 @@ If both numbers match, the dashboard agrees with the SQL.
 ## 5. Save and screenshot
 
 1. Clear all slicers and selections.
-2. **File → Save as** → `powerbi\loan_default_dashboard.pbix`.
+2. **File → Save as** → `powerbi\Dashboard.pbix`.
 3. Press **Win + Shift + S** → drag over the report page → click the notification → **Save** as `powerbi\dashboard.png`.
 4. Tell Claude it's there. It goes into the README and onto the portfolio page.
