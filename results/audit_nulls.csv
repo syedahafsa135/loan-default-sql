@@ -1,0 +1,2 @@
+LoanID,Age,Income,LoanAmount,CreditScore,MonthsEmployed,NumCreditLines,InterestRate,LoanTerm,DTIRatio,Education,EmploymentType,MaritalStatus,HasMortgage,HasDependents,LoanPurpose,HasCoSigner,Default_
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0

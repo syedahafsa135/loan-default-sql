@@ -1,0 +1,13 @@
+# Data stays out of git (Kaggle licence, and the files are large)
+data/*.csv
+data/*.db
+data/*.db-journal
+powerbi/loans_dashboard.csv
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Power BI autosave / cache
+*.pbix.bak

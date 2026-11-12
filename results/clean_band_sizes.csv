@@ -1,0 +1,26 @@
+band_type,band,n
+age_band,18-24,34176
+age_band,25-34,49287
+age_band,35-44,49196
+age_band,45-54,49069
+age_band,55-64,49100
+age_band,65-69,24519
+credit_band,1 Poor (300-579),130223
+credit_band,2 Fair (580-669),41847
+credit_band,3 Good (670-739),32073
+credit_band,4 Very good (740-799),27736
+credit_band,5 Exceptional (800+),23468
+dti_band,1 <0.3,62012
+dti_band,2 0.3-0.5,64038
+dti_band,3 0.5-0.7,63768
+dti_band,4 0.7+,65529
+income_band,1 <30k,28402
+income_band,2 30-60k,56651
+income_band,3 60-90k,56874
+income_band,4 90-120k,56776
+income_band,5 120k+,56644
+rate_band,1 2-7%,55209
+rate_band,2 7-12%,56051
+rate_band,3 12-17%,55452
+rate_band,4 17-22%,55183
+rate_band,5 22-25%,33452
